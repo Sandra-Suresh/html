@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Employee registration form</h1>
+            <form name="registration" class="registartion-form">
+              <table>
+                <tr>
+                  <td><label for="name">Employee Name:</label></td>
+                  <td><input type="text" name="name" id="name" placeholder="your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="about">Company Address</label></td>
+                    <td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
+                  </tr>
+                  <tr>
+                    <td><label for="joindate">Date of Joining</label></td>
+                    <td><input type="date" name="date" id="date"></td>
+                  </tr>
+                <tr>
+                  <td><label for="email">Email:</label></td>
+                  <td><input type="email" name="email" id="email" placeholder="your email"></td>
+                </tr>
+                <tr>
+                  <td><label for="phoneNumber">Phone Number:</label></td>
+                  <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+                </tr>
+                <tr>
+                  <td><label for="gender">Gender:</label></td>
+                  <td>Male: <input type="radio" name="gender" value="male">
+                    Female: <input type="radio" name="gender" value="female">
+                    Other: <input type="radio" name="gender" value="other"></td>
+                </tr>
+                <tr>
+                  <td><label for="Post">Post</label></td>
+                  <td>
+                    <select name="Post" id="post">
+                      <option value="">Select post</option>
+                      <option value="English">Manager</option>
+                      <option value="Spanish">CEO</option>
+                      <option value="Hindi">Employee</option>
+                      <option value="Arabic">Accountant</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                    <td><label for="Education">Education</label></td>
+                    <td>
+                      <select name="Education" id="Education">
+                        <option value="">Select Education</option>
+                        <option value="English">MCOM</option>
+                        <option value="Spanish">MBA</option>
+                        <option value="Hindi">MCA</option>
+                        <option value="Arabic">Msc CS</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="Hobbies">Hobbies</label></td>
+                    <td>Singing <input type="checkbox" name="Hobbies" value="Singing">
+                      Dancing <input type="checkbox" name="Hobbies" value="Dancing">
+                      Reading <input type="checkbox" name="Hobbies" value="reading">
+                      Gaming <input type="checkbox" name="Hobbies" value="Gaming"></td>
+                  </tr>
+
+                
+                <tr>
+                  <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+                </tr>
+              </table>
+            </form>
+          </div>
+    </body>
+</html>
